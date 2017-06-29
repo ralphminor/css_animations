@@ -19,7 +19,7 @@
 }
 
 .ufo-building-float {
-  animation: ufo-building-float 5s linear infinite;
+  animation: ufo-building-float 5s cubic-bezier(1,.015,.295,1.225) infinite;
 }
 
 @keyframes ufo-big {
