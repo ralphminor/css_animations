@@ -21,6 +21,12 @@
 .ufo-building-float {
   animation: ufo-building-float 5s cubic-bezier(1,.015,.295,1.225) infinite;
 }
+.ufo-float-big {
+  animation: ufo-building-float 3s cubic-bezier(1,.015,.295,1.225) infinite;
+}
+.ufo-float-small {
+  animation: ufo-building-float 2.8s cubic-bezier(1,.015,.295,1.225) infinite;
+}
 
 @keyframes ufo-big {
   0%        {opacity: 0}
